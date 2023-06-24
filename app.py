@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 import sklearn
-
 model = pickle.load(open("cpp.pkl", "rb"))
 
 df = pd.read_csv("Cleaned_CarPrice.csv")
